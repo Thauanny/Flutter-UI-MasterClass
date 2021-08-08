@@ -60,6 +60,7 @@ Widget _buildRecentOrder(BuildContext context, Order order) => Container(
           Expanded(
             child: Row(
               children: [
+                //image food
                 ClipRRect(
                   borderRadius: BorderRadius.circular(15),
                   child: Image(
@@ -69,6 +70,7 @@ Widget _buildRecentOrder(BuildContext context, Order order) => Container(
                     fit: BoxFit.cover,
                   ),
                 ),
+                //names food, restaurant and date
                 Expanded(
                   child: Container(
                     margin: EdgeInsets.all(12),
@@ -107,6 +109,7 @@ Widget _buildRecentOrder(BuildContext context, Order order) => Container(
               ],
             ),
           ),
+          //button
           Container(
             margin: EdgeInsets.only(right: 20),
             width: 48,

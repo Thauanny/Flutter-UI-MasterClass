@@ -11,5 +11,9 @@
     "recentOrdersText": "Recent Orders",
     "@recentOrdersText": {
       "description": ""
+    },
+    "nearbyRestaurantsText": "Registered restaurants",
+    "@nearbyRestaurantsText": {
+      "description": ""
     }
 }
