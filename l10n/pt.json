@@ -2,5 +2,14 @@
     "searchBarText": "Pesquise por comidas ou restaurantes",
     "@searchBarText": {
       "description": ""
+    },
+    "cartText": "Carrinho",
+    "@cartText": {
+      "description": ""
+    }
+    ,
+    "recentOrdersText": "Pedidos recentes",
+    "@recentOrdersText": {
+      "description": ""
     }
 }

@@ -3,5 +3,13 @@
     "searchBarText": "Search food or restaurants",
     "@searchBarText": {
       "description": ""
+    },
+    "cartText": "Cart",
+    "@cartText": {
+      "description": ""
+    },
+    "recentOrdersText": "Recent Orders",
+    "@recentOrdersText": {
+      "description": ""
     }
 }

@@ -19,7 +19,7 @@ class HomeScreenPage extends StatelessWidget {
                   primary: Theme.of(context).primaryColor, elevation: 0),
               onPressed: () {},
               child: Text(
-                'Cart(${currentUser.cart.length})',
+                '${l10n!.translate(key: 'cartText')}(${currentUser.cart.length})',
                 style: TextStyle(fontSize: 17),
               ))
         ],
@@ -32,7 +32,10 @@ class HomeScreenPage extends StatelessWidget {
         ),
       ),
       body: ListView(
-        children: [_searchBar(context, l10n), RecentOrders()],
+        children: [
+          _searchBar(context, l10n),
+          RecentOrders(),
+        ],
       ),
     );
   }
